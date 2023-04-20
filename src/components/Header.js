@@ -19,7 +19,7 @@ import UserSidebar from "./Authentication/UserSidebar";
 const useStyles = makeStyles((theme) => ({
   title: {
     flex: 1,
-    color: "#baeb0b",
+    color: "#fff",
     fontFamily: "Montserrat",
     fontWeight: "bold",
     cursor: "pointer",
@@ -52,7 +52,7 @@ function Header() {
               variant="h6"
               className={classes.title}
             >
-              Crypto Analytics📉
+              Alpha X 📉
             </Typography>
             <Select
               variant="outlined"

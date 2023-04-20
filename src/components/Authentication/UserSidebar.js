@@ -29,14 +29,14 @@ const useStyles = makeStyles({
   logout: {
     height: "8%",
     width: "100%",
-    backgroundColor: "#baeb0b",
+    backgroundColor: "#c21a09",
     marginTop: 20,
   },
   picture: {
     width: 200,
     height: 200,
     cursor: "pointer",
-    backgroundColor: "#baeb0b",
+    backgroundColor: "#c21a09",
     objectFit: "contain",
   },
   watchlist: {
@@ -60,7 +60,7 @@ const useStyles = makeStyles({
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    backgroundColor: "#baeb0b",
+    backgroundColor: "#c21a09",
     boxShadow: "0 0 3px black",
   },
 });
@@ -130,7 +130,7 @@ export default function UserSidebar() {
               width: 38,
               marginLeft: 15,
               cursor: "pointer",
-              backgroundColor: "#baeb0b",
+              backgroundColor: "#c21a09",
             }}
             src={user.photoURL}
             alt={user.displayName || user.email}

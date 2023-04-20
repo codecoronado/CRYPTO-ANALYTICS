@@ -31,7 +31,7 @@ export default function CoinsTable() {
 
   const useStyles = makeStyles({
     row: {
-      backgroundColor: "#020f35",
+      backgroundColor: "#000",
       cursor: "pointer",
       "&:hover": {
         backgroundColor: "#16171a",
@@ -40,7 +40,7 @@ export default function CoinsTable() {
     },
     pagination: {
       "& .MuiPaginationItem-root": {
-        color: "#baeb0b",
+        color: "#c21a09",
       },
     },
   });
@@ -82,10 +82,10 @@ export default function CoinsTable() {
         />
         <TableContainer component={Paper}>
           {loading ? (
-            <LinearProgress style={{ backgroundColor: "#baeb0b" }} />
+            <LinearProgress style={{ backgroundColor: "#c21a09" }} />
           ) : (
             <Table aria-label="simple table">
-              <TableHead style={{ backgroundColor: "#baeb0b" }}>
+              <TableHead style={{ backgroundColor: "#c21a09" }}>
                 <TableRow>
                   {["Coin", "Price", "24h Change", "Market Cap"].map((head) => (
                     <TableCell

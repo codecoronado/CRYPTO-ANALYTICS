@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     width: 400,
     backgroundColor: theme.palette.background.paper,
-    color: "#baeb0b",
+    color: "#fff",
     border: "2px solid #000",
     boxShadow: theme.shadows[5],
     borderRadius: 10,
@@ -64,7 +64,7 @@ export default function AuthModal() {
       .then((res) => {
         setAlert({
           open: true,
-          message: `hurrah!!!🎉 Sign Up Successful. Welcome to Crypto-Analytics ${res.user.email}`,
+          message: `hurrah!!!🎉 Sign Up Successful. Welcome to Alpha X ${res.user.email}`,
           type: "success",
         });
 
@@ -88,7 +88,7 @@ export default function AuthModal() {
           width: 85,
           height: 40,
           marginLeft: 15,
-          backgroundColor: "#baeb0b",
+          backgroundColor: "#c21a09",
         }}
         onClick={handleOpen}
       >
@@ -112,7 +112,7 @@ export default function AuthModal() {
               position="static"
               style={{
                 backgroundColor: "transparent",
-                color: "#baeb0b",
+                color: "#c21a09",
                 
               }}
             >

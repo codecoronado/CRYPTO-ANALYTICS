@@ -29,7 +29,7 @@ const Signup = ({ handleClose }) => {
       );
       setAlert({
         open: true,
-        message: `Sign Up Successful.Your day's just about to get better unless you've just had sex. Welcome ${result.user.email} to Crypto Analytics📉`,
+        message: `Sign Up Successful.Your day's just about to get better with us. Welcome ${result.user.email} to Alpha X 📉`,
         type: "success",
       });
 
@@ -80,7 +80,7 @@ const Signup = ({ handleClose }) => {
       <Button
         variant="contained"
         size="large"
-        style={{ backgroundColor: "#baeb0b" }}
+        style={{ backgroundColor: "#c21a09" }}
         onClick={handleSubmit}
       >
         Sign Up

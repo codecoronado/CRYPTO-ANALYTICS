@@ -24,7 +24,7 @@ const Login = ({ handleClose }) => {
       const result = await signInWithEmailAndPassword(auth, email, password);
       setAlert({
         open: true,
-        message: `Log-in Successful.You're now logged in.Your day's just about to get better unless you've just had sex. Welcome ${result.user.email} to Crypto Analytics 📉.`,
+        message: `Log-in Successful.You're now logged in.Your day's just about to get better with us. Welcome ${result.user.email} to Alpha X 📉.`,
         type: "success",
       });
 
@@ -68,7 +68,7 @@ const Login = ({ handleClose }) => {
         variant="contained"
         size="large"
         onClick={handleSubmit}
-        style={{ backgroundColor: "#baeb0b" }}
+        style={{ backgroundColor: "#c21a09" }}
       >
         Login
       </Button>

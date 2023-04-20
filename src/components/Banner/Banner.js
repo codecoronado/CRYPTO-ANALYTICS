@@ -42,7 +42,7 @@ function Banner() {
               fontFamily: "Montserrat",
             }}
           >
-            Crypto Analytics📉
+            Alpha X - Crypto Analytics📉
           </Typography>
           <Typography
             variant="subtitle2"
